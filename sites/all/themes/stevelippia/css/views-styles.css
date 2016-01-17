@@ -1,0 +1,47 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+.view-header {
+}
+.view-header p {
+	margin-top: 0;
+}
+
+
+
+/** Album View **/
+.view-album .views-row {
+	margin: 0.5em 0;
+}
+.view-album .views-field-title {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0 0 5px;
+}
+
+
+
+/** Gallery View **/
+.view-gallery {
+}
+.view-gallery td {
+	width: 220px;
+	vertical-align: top;
+	padding: 0 17px 20px 0;
+}
+.view-gallery .views-field-entity-id img {
+	border: 1px solid #606060;
+}
+
+
+
+/** Fan Gallery View **/
+.view-fan-gallery {
+	padding: 16px 0 0 0;
+}
+.view-fan-gallery .views-field-field-photo img {
+	border:6px solid #98a6a9;
+}
