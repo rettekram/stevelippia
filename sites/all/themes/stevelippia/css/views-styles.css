@@ -2,17 +2,19 @@
  * @file
  * Views Styling
  */
-
-
 .view-header {
 }
 .view-header p {
 	margin-top: 0;
 }
+.views-exposed-form .views-exposed-widget .form-submit {
+	margin-top: 25px;
+}
 
 
-
-/** Album View **/
+/** 
+ * 	Album View 
+ */
 .view-album .views-row {
 	margin: 0.5em 0;
 }
@@ -22,9 +24,71 @@
 	padding: 0 0 5px;
 }
 
+/** 
+ * 	Event View 
+ */
+.view-events {
+}
+.view-events .views-exposed-form {
+	padding-bottom: 20px;
+}
+.view-events .views-row {
+	clear: both;
+}
+
+.view-events .event-date {
+	float: left;
+	width: 40px;
+	background: url('../images/block-bg.png') repeat;
+	border: 1px solid #606060;
+	text-align: center;
+	margin-right: 20px;
+	padding: 30px 20px;
+}
+.view-events .event-day {
+	font-size: 28px;
+}
+.view-events .event-month {
+	font-size: 18px;
+	font-weight: bold;
+}
+.view-events .event-content {
+	float: left;
+	width: 580px;
+	padding: 4px 0px 20px;
+}
+.view-events .event-title {
+	font-size: 24px;
+	line-height: 20px;
+}
+.view-events .event-title a {
+	text-decoration: none;
+}
+.view-events .event-body {
+}
+.view-events .event-location,
+.view-events .event-show {
+	font-size: 12px;
+	background-color:#606060;
+	border-radius: 4px;
+	padding: 4px 8px;
+}
 
 
-/** Gallery View **/
+/** 
+ * 	Fan Gallery View 
+ */
+.view-fan-gallery {
+	padding: 16px 0 0 0;
+}
+.view-fan-gallery .views-field-field-photo img {
+	border:6px solid #98a6a9;
+}
+
+
+/** 
+ * 	Gallery View
+ */
 .view-gallery {
 }
 .view-gallery td {
@@ -38,10 +102,8 @@
 
 
 
-/** Fan Gallery View **/
-.view-fan-gallery {
-	padding: 16px 0 0 0;
-}
-.view-fan-gallery .views-field-field-photo img {
-	border:6px solid #98a6a9;
-}
+
+
+
+
+
